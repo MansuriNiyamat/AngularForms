@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "es2015",
+    "sourceMap": true,
+    "declaration": true,
+    "inlineSources": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "lib": [
+    	"es2015",
+	"dom",
+	"es7"
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "atom": {
+    "rewriteTsconfig": false
+  },
+  "typedocOptions": {
+    "name": "Angular JSON Schema Form Library",
+    "mode": "file",
+    "out": "docs/api/",
+    "theme": "default",
+    "ignoreCompilerErrors": "true",
+    "experimentalDecorators": "true",
+    "emitDecoratorMetadata": "true",
+    "target": "es5",
+    "moduleResolution": "node",
+    "preserveConstEnums": "true",
+    "stripInternal": "true",
+    "suppressExcessPropertyErrors": "true",
+    "suppressImplicitAnyIndexErrors": "true",
+    "module": "commonjs"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "angular2-json-schema-form",
+  "version": "0.7.0-alpha.1",
+  "author": {
+    "name": "David Schnell-Davis",
+    "email": "dschnelldavis@gmail.com"
+  },
+  "description": "Angular JSON Schema Form builder",
+  "keywords": [
+    "Angular",
+    "ng",
+    "Angular4",
+    "Angular 4",
+    "ng4",
+    "Angular5",
+    "Angular 5",
+    "ng5",
+    "Angular6",
+    "Angular 6",
+    "ng6",
+    "JSON Schema",
+    "form",
+    "forms",
+    "form builder"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dschnelldavis/angular2-json-schema-form"
+  },
+  "bugs": {
+    "url": "https://github.com/dschnelldavis/angular2-json-schema-form/issues"
+  },
+  "main": "./dist/bundles/angular2-json-schema-form.umd.js",
+  "module": "./angular2-json-schema-form.es5.js",
+  "es2015": "./angular2-json-schema-form.js",
+  "typings": "./angular2-json-schema-form.d.ts",
+  "dependencies": {
+    "ajv": "^6.4.0",
+    "lodash": "^4.17.10",
+    "rxjs-compat": "^6.0.0-rc.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0",
+    "@angular/flex-layout": "6.0.0-beta.15",
+    "ng2-dnd": "^4.1.0"
+  }
+}
